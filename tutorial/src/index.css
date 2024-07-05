@@ -29,11 +29,23 @@ body {
   border-radius: 1rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #c35600;
 }
 
 .book h1 {
   font-size: 1.25rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .book h4 {
@@ -45,5 +57,18 @@ body {
 .book img {
   margin-top: 1rem;
   width: 100%;
-  object-fit: cover;
+  height: 250px;
+  object-fit: contain;
+}
+
+.eventExample {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-transform: capitalize;
 }
